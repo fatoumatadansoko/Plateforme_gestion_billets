@@ -1,0 +1,68 @@
+
+
+body{
+    background: rgb(255,255,255);
+}
+header .nav {
+    display: flex;
+    color: black;
+    padding:0 150px;
+    text-decoration: none;
+    background: rgb(255,255,255);
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    padding:  15px 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 150px;
+}
+
+header .menu a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20px;
+    text-align: center;
+}
+header .contacts {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-align: center;
+    margin: 0 150px;
+}
+
+header .contacts .button {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding:5px 30px;
+    font-size: 20px;
+    background: #ffffff;
+    border-color: #0c8ce9;
+    border-radius: 1px;
+    
+}
+header .submenu {
+    border: 0;
+    background: #ffffff;
+    color: #b11d3a;
+}
+header .submenu a {
+    border: 0;
+    background: #ffffff;
+    color:#efefef;
+    
+}
+
+/*Fin head*/
