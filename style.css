@@ -6,7 +6,7 @@ body{
 header .nav {
     display: flex;
     color: black;
-    padding:0 150px;
+    padding:0 90px;
     text-decoration: none;
     background: rgb(255,255,255);
 }
@@ -19,7 +19,7 @@ header .menu {
     padding:  15px 30px;
     font-size: 20px;
     text-align: center;
-    margin: 0 150px;
+    margin: 0 250px;
 }
 
 header .menu a {
@@ -39,7 +39,7 @@ header .contacts {
     font-size: 20px;
     text-align: center;
     text-align: center;
-    margin: 0 150px;
+    margin: 0 30px;
 }
 
 header .contacts .button {
@@ -53,16 +53,51 @@ header .contacts .button {
     border-radius: 1px;
     
 }
-header .submenu {
-    border: 0;
-    background: #ffffff;
-    color: #b11d3a;
-}
-header .submenu a {
-    border: 0;
-    background: #ffffff;
-    color:#efefef;
-    
-}
 
 /*Fin head*/
+
+/*banner*/
+
+body main .banner {
+    display: flex; 
+    padding:0 200px;
+    margin-top: 0px;
+
+}
+
+body main .banner .section1 {
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+body main .banner .section2 {
+    width: 200px;
+    padding-top: 50px;
+}
+body main .destination {
+text-align: center;
+ @keyframes bouger{
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(50px); /* Ajustez la distance que vous souhaitez */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .destination {
+    animation: bouger 10s ease infinite; /* Ajustez la durée de l'animation selon vos besoins */
+  }
+  
+
+}
+body main .liste {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height:300px;
+    padding-left: 50px;
+}
