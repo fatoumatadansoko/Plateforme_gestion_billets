@@ -32,8 +32,8 @@ if (mysqli_num_rows($result) >0) {
                     <th>prix</th>
                     <th>Statut</th>
                     <th>siege</th>
-                    <th>id_client</th>
-                    <th>id_reservaion</th>
+                    <th>destination</th>
+                    <th>client_id</th>
                     <th>Modifier</th>
                     <th>Supprimer</th>
                 </tr>
@@ -49,8 +49,8 @@ if (mysqli_num_rows($result) >0) {
                     <td><?=$row['prix']?></td>
                     <td><?=$row['statut']?></td>
                     <td><?=$row['siege']?></td>
-                    <td><?=$row['id_client']?></td>
-                    <td><?=$row['id_reservation']?></td>
+                    <td><?=$row['destination']?></td>
+                    <td><?=$row['client_id']?></td>
                     <td class="image"> <a href="modifier.php?id=<?=$row['id_billet']?>"><img src="img/write.png" alt=""></a></td>
                     <td class="image"> <a href="supprimer.php?id=<?=$row['id_billet']?>"><img src="img/remove.png" alt=""></a></td>
                 </tr>
