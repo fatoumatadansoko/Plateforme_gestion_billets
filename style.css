@@ -199,13 +199,12 @@ footer hr {
     font-weight: bold;
 }
 
-
 /*Page ajout.php*/
 
 /*Section banniere*/
 body .banniere{
     justify-content: center;
-    margin-left:490px;
+    padding-left:620px;
 }
 /*fin banniere*/
 
