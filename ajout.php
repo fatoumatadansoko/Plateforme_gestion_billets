@@ -4,23 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Billeterie</title>
+    <title>Ajoutez</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="banniere">
-    <img src="img/illusta.jpg" alt="" height="600px">
+    <img src="img/illusta.jpg" alt="" height="350px">
 
     </div>
-    <div class="avion">
-        <div>
-            <img src="img/illustration.png" alt="">
-        </div>
-        <div>
-        <img src="img/illustration2.png" alt="">
-
-        </div>
+    
     </div>
     <div>
     <form action="" method="post">
@@ -36,6 +29,14 @@
          <a class="link back" href="index.php">Annuler</a>
     </form>
     </div>
+    <div class="avion">
+        <div>
+            <img src="img/illustration.png" alt="">
+        </div>
+        <div>
+        <img src="img/illustration2.png" alt="">
+
+        </div>
 </body>
 
 </html>
