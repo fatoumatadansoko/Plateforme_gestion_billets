@@ -198,3 +198,49 @@ footer hr {
     font-size: 15px;
     font-weight: bold;
 }
+
+
+/*Page ajout.php*/
+
+/*Section banniere*/
+body .banniere{
+    justify-content: center;
+    margin-left:490px;
+}
+/*fin banniere*/
+
+
+/*debut avion*/
+
+body .avion{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Formulaire d'ajout*/
+
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-left:540px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+form input {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ff914d;
+    border-radius: 3px;
+    outline: 5px;
+    width: 650px;
+    height: 70px;
+}
+form input[type="submit"]{
+   cursor: pointer;
+    background-color: #0c8ce9;
+    color: #fff;
+    border: 1px solid #0c8ce9;
+
+}

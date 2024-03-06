@@ -24,7 +24,7 @@
                 <a href="#">Flights</a>
 
                 <a href="#">Réservation</a>
-                <a href="#">Billeterie</a>
+                <a href="ajout.php">Billeterie</a>
 
                 <div class="contacts">
                     <a href="#">Support</a>
