@@ -23,7 +23,7 @@
 
                 <a href="#">Flights</a>
 
-                <a href="#">Réservation</a>
+                <a href="client.php">Clients</a>
                 <a href="billeterie.php">Billeterie</a>
 
                 <div class="contacts">

@@ -9,7 +9,7 @@
 <body>
     <main>
         <div class="contenu">
-            <a href="ajout.php">Ajouter une billet</a>
+            <a href="ajout.php">Ajouter un billet</a>
         </div>
         <table>
             <thead>
