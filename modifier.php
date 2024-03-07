@@ -23,13 +23,13 @@ if (isset($_POST['send'])) {
     )  {
 
         include_once "config.php";
-
+        extract($_POST);
         // Utilisation d'une requête préparée
         $sql = "UPDATE Billets SET date_reservation = ?, heure_reservation = ?, prix = ?, statut = ?, siege = ?, destination = ?, client_id = ? WHERE id_billet = ?";
         $stmt = mysqli_prepare($conn, $sql);
 
         // Liaison des paramètres
-        mysqli_stmt_bind_param($stmt, "sssssii", $_POST['date_reservation'], $_POST['heure_reservation'], $_POST['prix'], $_POST['statut'], $_POST['siege'], $_POST['destination'], $_POST['client_id'], $id_billet);
+        mysqli_stmt_bind_param($stmt, "ssssssii", $_POST['date_reservation'], $_POST['heure_reservation'], $_POST['prix'], $_POST['statut'], $_POST['siege'], $_POST['destination'], $_POST['client_id'], $id_billet);
 
         // Exécution de la requête préparée
         if (mysqli_stmt_execute($stmt)) {
