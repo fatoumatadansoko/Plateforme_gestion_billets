@@ -63,7 +63,7 @@ if (isset($_POST['send'])) {
             La destination <input type="text" name="destination" value="" placeholder="destination">
             L'identifiant du client <input type="text" name="client_id" value="" placeholder="client_id">
             <input type="submit" value="Ajouter" name="send">
-            <a class="link back" href="index.php">Annuler</a>
+            <a class="link back" href="client.php">Annuler</a>
         </form>
     </div>
     <div class="avion">

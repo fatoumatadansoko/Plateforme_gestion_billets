@@ -57,6 +57,8 @@ if (mysqli_num_rows($result) >0) {
 ?>
             </tbody>
         </table>
+        <a href="ajout.php">Réservez un billet</a>
+
     </main>
     
 </body>
