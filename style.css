@@ -79,6 +79,10 @@ text-align: center;
   
 
 }
+body main .pays {
+    display: flex;
+    justify-content: center;
+}
 body main .liste {
     display: flex;
     position: relative;
