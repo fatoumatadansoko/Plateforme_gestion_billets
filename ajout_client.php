@@ -23,6 +23,8 @@ if (isset($_POST['send'])) {
         if ($stmt->execute()) {
             // Message de succès
             echo "Client ajouté avec succès!";
+            header("location:client.php");
+
         } else {
             // Message d'erreur
             echo "Erreur lors de l'ajout du client";

@@ -23,7 +23,7 @@ if (isset($_POST['send'])) {
         $stmt = mysqli_prepare($conn, $sql);
 
         // Liaison des paramètres
-        mysqli_stmt_bind_param($stmt, "ssssi", $_POST['nom'], $_POST['prenom'], $_POST['telephone'], $_POST['email'], $_POST['client_id']);
+        mysqli_stmt_bind_param($stmt, "ssssi", $_POST['nom'], $_POST['prenom'], $_POST['telephone'], $_POST['email'], $client_id);
 
         // Exécution de la requête préparée
         if (mysqli_stmt_execute($stmt)) {
